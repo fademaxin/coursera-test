@@ -10,6 +10,13 @@ body{
 	font-family: 'Gemunu Libre', sans-serif;
 }
 .logo{
-	background:#000 ;
+	background:#1b6367 ;
 	width:100% ;
+	display: flex;
+	justify-content: center;
+}
+.graficlogo{
+	padding: 1px;
+	max-width: 100%;
+	box-sizing: border-box;
 }
