@@ -1,0 +1,15 @@
+*{margin:0;
+	padding:0;
+}
+a{text-decoration: none;
+}
+li{text-decoration: none;
+	list-style: none;
+}
+body{
+	font-family: 'Gemunu Libre', sans-serif;
+}
+.logo{
+	background:#000 ;
+	width:100% ;
+}
