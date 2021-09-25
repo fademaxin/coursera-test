@@ -3,20 +3,56 @@
 <head>
 	<meta charset="utf-8">
 	<title>RegistrationForm</title>
-	<link rel="stylesheet" href="/site/style.css">
+	<link rel="stylesheet" href="/style.css">
 	<link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Gemunu+Libre:wght@800&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap" rel="stylesheet">
 </head>
 
 <body>
 	<header>
 	<div class="logo">
-	<a href="https://fa.ru"><img src="/site/img/fa.jpg" class="graficlogo" alt="logo"></a>
+		<img src="img/fa.jpg" class="graficlogo" alt="logo"></a>
 	</div> 
-	<h1><center>MAMA KRASAVO</center></h1>
 	</header>
+	<form action="">
+		<h1 title="ФОРМА РЕГИСТРАЦИИ">РЕГИСТРАЦИЯ</h1>
 
-	<script src="/site/script.js"></script>
+		<div class="group">
+		<label for="">Имя</label>
+		<input type="text" name="" placeholder="Сергей">
+		</div>
+		<div class="group">
+		<label for="">Фамилия</label>
+		<input type="text" name=""placeholder="Иванов">
+		</div>
+		<div class="group">
+		<label for="">Адрес электронной почты</label>
+		<input type="email" name="" placeholder="example@gmail.com">
+		</div>
+		<div class="group">
+		<label for="">Номер телефона</label>
+		<input type="text" name="" placeholder="+7(xxx)xxx-xx-xx">
+		</div>
+
+		<div class="group">
+		<label for="">Пол</label>
+		<select>
+			<option>Мужской</option>
+			<option>Женский</option>
+		</select>
+
+
+		</div>
+		<div class="group">
+			<center><button>Отправить</button></center>
+		</form>
+		<input type="checkbox" id="model">
+		<label for="model"> </label>
+		
+		</div>
+	</form>
+
+	<script src="/script.js"></script>
 </body>
 </html>

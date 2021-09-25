@@ -7,16 +7,81 @@ li{text-decoration: none;
 	list-style: none;
 }
 body{
-	font-family: 'Gemunu Libre', sans-serif;
+	font-family: 'Roboto Condensed', sans-serif;
+	background-image: url(img/fa2.jpg)
 }
 .logo{
 	background:#1b6367 ;
 	width:100% ;
 	display: flex;
 	justify-content: center;
+	margin: 0;
 }
+h1{
+	cursor: help;
+	margin: 0;
+	text-transform: uppercase;
+	padding-bottom: 5px;
+	border-bottom: 3px solid #1b6367;
+
+}
+form {
+	margin: 0 auto;
+	color: #fff;
+	background: #1b6367;
+	width: 450px;
+	height: 500px;
+	padding: 20px;
+	box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.82);
+}
+.group{
+	margin: 10px;
+	padding: 5px;
+
+}
+label{
+	padding-left: 10px;
+	text-transform: uppercase;
+
+}
+
 .graficlogo{
-	padding: 1px;
+	padding: 5px;
 	max-width: 100%;
 	box-sizing: border-box;
+}
+
+input {
+	margin-top: 10px;
+	height: 40px;
+	width: 400px;
+	border-radius: 20px/20px;
+	border: none;
+	padding-left: 15px;
+	font-size: 18px;
+	box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.86);
+}
+input:focus {
+	border: 2px solid #6c00ff;
+	transform: translate(15px);
+	width: 385px;
+}
+button {
+	cursor: pointer;
+	padding: 10px 20px;
+	height: 50px;
+	color: #fff;
+	background: #1b6367;
+	border: none;
+	text-transform: uppercase;
+	font-size: 12px;
+	box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.76);
+
+}
+button: hover {
+	opacity: .80;
+	font-weight: bold;
+	transform: scale(1.1);
+
+
 }
