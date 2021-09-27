@@ -3,21 +3,21 @@
 <head>
 	<meta charset="utf-8">
 	<title>RegistrationForm</title>
-	<link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="css.css">
 	<link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap" rel="stylesheet">
 </head>
 
 <body>
-	<link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="css.css">
 	<header>
 	<div class="logo">
-		<img src="img/fa.jpg" class="graficlogo" alt="logo"></a>
+		<img src="img/fa.jpg" class="graficlogo" alt="logo">
 	</div> 
 	</header>
 	<form action="">
-		<h1 title="ФОРМА РЕГИСТРАЦИИ">РЕГИСТРАЦИЯ</h1>
+		<h1 title="ФОРМА РЕГИСТРАЦИИ">Заполните форму</h1>
 
 		<div class="group">
 		<label for="">Имя</label>
@@ -25,7 +25,7 @@
 		</div>
 		<div class="group">
 		<label for="">Фамилия</label>
-		<input type="text" name=""placeholder="Иванов">
+		<input type="text" name="" placeholder="Иванов">
 		</div>
 		<div class="group">
 		<label for="">Адрес электронной почты</label>
@@ -37,23 +37,29 @@
 		</div>
 
 		<div class="group">
-		<label for="">Пол</label>
+		<label for="">Пол</label><br>
 		<select>
 			<option>Мужской</option>
 			<option>Женский</option>
 		</select>
-
-
 		</div>
-		<div class="group">
-			<center><button>Отправить</button></center>
-		</form>
-		<input type="checkbox" id="model">
-		<label for="model"> </label>
 		
-		</div>
-	</form>
 
-	<script src="/script.js"></script>
+<div class="group">
+			<center><a class="button open-popup" ><h1>Отправить</h1></center></a>
+		</div>
+		<div class="popup-bg">
+        <div class="popup">
+            <img class="close-popup" src="img/close.png" alt="">
+            <form action=""> 
+                <input value="Спасибо!" type="submit">
+            </form>
+
+        </div>
+    </div>
+<script src="jquery.min.js"></script>
+    <script src="main.js"></script>
+</form>
+<script src="/script.js"></script>
 </body>
 </html>
